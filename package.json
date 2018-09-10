@@ -1,0 +1,16 @@
+{
+  "name": "Cpu_Monitor",
+  "version": "1.2.2",
+  "description": "Dropdown CPU activity monitor",
+  "repository": "https://github.com/thecoolwinter/cpuMonitor.git",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icon.icns --prune=true --out=release-builds"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.4.12",
+    "electron-packager": "^12.1.1"
+  }
+}
